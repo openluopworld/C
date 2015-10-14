@@ -32,7 +32,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;static<b>也可用于声明内部变量。static类型的内部变量同局部变量一样，是某个特定函数的局部变量，只能在该函数中使用，但它与自动变量不同的是，不管其所在函数是否被调用，它一直存在，而不像自动变量那样，随着所在函数的被调用和退出而存在和消失。换句话说，static类型的内部变量是一种只能在某个特定函数中使用但一直占据存储空间的变量。每次调用对变量的修改对下次调用都是可见的。</b><br>
 
 #Chapter5
-1) 指针声明方式<b>int *p;</b>, 取值运算符*紧跟变量名。对于<b>int *p, q;</b>，p是一个指针变量，而q只是一个整形变量，写为int* p, q;容易产生误解。
+1) 指针声明方式<b>int *p;</b>, 取值运算符*紧跟变量名。对于<b>int *p, q;</b>，p是一个指针变量，而q只是一个整形变量，写为int* p, q;容易产生误解。<br>
+2) char message[] = "now"; the value of <b>sizeof(message)</b> is 4.<br>
+3) The value of char <b>'\0'</b> is 0.<br>
 
 #Ref
 [1] <a href="http://www.ruanyifeng.com/blog/2011/11/eof.html">EOF</a><br>

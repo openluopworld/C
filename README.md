@@ -1,6 +1,7 @@
 # C程序设计语言
 
 #Chapter1
+0) The size of a data type(int, short, long, double.) has relation to the machine.<br>
 1) printf打印<br>
 &nbsp;&nbsp;&nbsp;&nbsp;%d,按照十进制整数打印<br>
 &nbsp;&nbsp;&nbsp;&nbsp;%ld,long int<br>

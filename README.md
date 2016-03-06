@@ -37,7 +37,7 @@
 2) char message[] = "now"; the value of <b>sizeof(message)</b> is 4.<br>
 3) The value of char <b>'\0'</b> is 0.<br>
 4) 指针数组最频繁的用处是存放具有不同长度的字符串。<br>
-5) <a href="http://c.biancheng.net/cpp/html/476.html" target="_blank">指针数组：首先它是一个数组，数组的元素都是指针，数组占多少个字节由数组本身决定。它是“储存指针的数组”的简称。数组指针：首先它是一个指针，它指向一个数组。在32 位系统下永远是占4 个字节，至于它指向的数组占多少字节，不知道。它是“指向数组的指针”的简称.</a><br>
+5) <a href="http://c.biancheng.net/cpp/html/476.html" target="_blank">指针数组(int *a[10])：首先它是一个数组，数组的元素都是指针，数组占多少个字节由数组本身决定。它是“储存指针的数组”的简称。数组指针(int (*a)[10])：首先它是一个指针，它指向一个数组。在32 位系统下永远是占4 个字节，至于它指向的数组占多少字节，不知道。它是“指向数组的指针”的简称.</a><br>
 
 #Ref
 [1] <a href="http://www.ruanyifeng.com/blog/2011/11/eof.html">EOF</a><br>

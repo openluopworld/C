@@ -1,4 +1,5 @@
 
 #include "a.h"
+#include <stdint.h>
 
-uint8_t a = 2;
+uint8_t a = 3;

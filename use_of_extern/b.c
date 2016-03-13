@@ -5,6 +5,7 @@
 #include "a.h"
 
 uint8_t sub (uint8_t x) {
+	a += 1;
 	return x-a;
 }
 

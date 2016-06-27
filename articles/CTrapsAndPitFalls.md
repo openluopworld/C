@@ -18,3 +18,19 @@
 void aes_encrypt (unsigned char *roundkeys, unsigned char *plain, unsigned char *cipher) ;
 void aes_encrypt (unsigned char roundkeys[176], unsigned char plain[16], unsigned char cipher[16]) ;
 ```
+* String in C is a const value. Its contents can not be modified.
+```C
+char *q = "xyz";
+// q[1] = "A"; // Compile no error with gcc-4.8.4, but error at run time.
+strlen(q); // 3
+sizeof("xyz"); // 4
+```
+```C
+size_t strlen (char const *string) {
+	int length;
+	for (lenght = 0; *string++ != '\0'; ) {
+		length += 1;
+	}
+	return length;
+}
+```

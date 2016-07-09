@@ -34,3 +34,9 @@ size_t strlen (char const *string) {
 	return length;
 }
 ```
+* shift and division
+```C
+// a will be faster than b if (low+high) is not nagative. WHY?
+mid = (low + high)>>1; // a
+mid = (low + high)/2; // b
+```

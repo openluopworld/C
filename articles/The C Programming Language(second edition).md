@@ -10,6 +10,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;%6f,按照浮点数打印，至少6个字符宽<br>
 &nbsp;&nbsp;&nbsp;&nbsp;%.2f,按照浮点数打印，小数点后有两位小数<br>
 &nbsp;&nbsp;&nbsp;&nbsp;%6.2f,按照浮点数打印，至少6个字符宽，小数点后有两位小数<br>
+&nbsp;&nbsp;&nbsp;&nbsp;%g, print double value. From book C Traps And PitFalls.
 &nbsp;&nbsp;&nbsp;&nbsp;%o,八进制数<br>
 &nbsp;&nbsp;&nbsp;&nbsp;%x,十六进制数<br>
 &nbsp;&nbsp;&nbsp;&nbsp;%c,字符<br>

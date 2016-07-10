@@ -40,3 +40,8 @@ size_t strlen (char const *string) {
 mid = (low + high)>>1; // a
 mid = (low + high)/2; // b
 ```
+
+* empty sentence
+```C
+NULL;
+```

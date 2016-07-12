@@ -45,3 +45,12 @@ mid = (low + high)/2; // b
 ```C
 NULL;
 ```
+
+* 局部变量的地址不能作为返回值。
+```C
+char * returnLocal ( void ) {
+	char a[8] = "abcdefg";
+	// warning: function returns address of local variable [-Wreturn-local-addr]
+	return a;
+}
+```
